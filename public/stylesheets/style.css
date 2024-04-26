@@ -1,0 +1,197 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+* {
+  font-family: "Poppins";
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121213;
+  height: 100vh;
+}
+
+.screen-1 {
+  background: #0b1320;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 2em #0b1320;
+  gap: 2em;
+}
+
+.screen-1 .logo {
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 590;
+  justify-content: center;
+  text-shadow: 0 0 7px #e6e9f9;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.screen-1 .email {
+  background: white;
+  box-shadow: 0 0 1em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: .4em;
+}
+
+.screen-1 .email input {
+  outline: none;
+  border: none;
+}
+
+.screen-1 .email input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.screen-1 .email input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.screen-1 .email input::placeholder {
+  color: gray;
+  font-size: 0.9em;
+}
+
+.screen-1 .email ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+
+.screen-1 .name {
+  background: white;
+  box-shadow: 0 0 1em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+}
+
+.screen-1 .name input {
+  outline: none;
+  border: none;
+}
+
+.screen-1 .name input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.screen-1 .name input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.screen-1 .name input::placeholder {
+  color: gray;
+  font-size: 0.9em;
+}
+
+.screen-1 .name ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+
+
+.screen-1 .password {
+  background: white;
+  box-shadow: 0 0 1em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+}
+
+.screen-1 .password input {
+  outline: none;
+  border: none;
+}
+
+.screen-1 .password input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.screen-1 .password input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.screen-1 .password input::placeholder {
+  color: gray;
+  font-size: 0.9em;
+}
+
+.screen-1 .password ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+
+.screen-1 .password .show-hide {
+  margin-right: -5em;
+}
+
+.screen-1 .login {
+  padding: 1em;
+  background: #111727;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  overflow: auto;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.screen-1 .login:hover {
+  box-shadow: 0 0 1em #e6e9f9;
+}
+
+.screen-1 .footer {
+  display: flex;
+  font-size: 0.7em;
+  color: #5e5e5e;
+  gap: 14em;
+  padding-bottom: 10em;
+}
+
+.screen-1 .err {
+  color: red;
+  font-size: smaller;
+}
+
+.screen-1 .footer a {
+  cursor: pointer;
+  color: #3e4684;
+}
+
+button {
+  cursor: pointer;
+}

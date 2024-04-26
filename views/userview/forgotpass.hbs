@@ -1,0 +1,36 @@
+<section class="">
+    <form action="/forgotaction" method="post">
+        <div class="screen-1">
+            {{!-- <h1 class="logo" style="margin-top: -2em;"></h1> --}}
+            <div class="email">
+                <label for="email">Email Address</label>
+                <div class="sec-2">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" name="Email" placeholder="Username@gmail.com" />
+                </div>
+            </div>
+            <div class="password">
+                <label for="password">New password</label>
+                <div class="sec-2">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input class="pas" type="password" name="Password" placeholder="············" />
+                </div>
+            </div>
+            <div class="password">
+                <label for="password">Confirm Password</label>
+                <div class="sec-2">
+                    <ion-icon name="lock-clos .ed-outline"></ion-icon>
+                    <input class="pas" type="password" name="Password1" placeholder="············" />
+                    {{#if DiffPass}}
+                    <p class="err">Passwords is not same</p>
+                    {{/if}}
+                </div>
+            </div>
+            <button class="login">Confirm</button>
+            <div class="footer">
+                <a>Welcome to -</a>
+                <span>Tech TUTOR</span>
+            </div>
+        </div>
+    </form>
+</section>

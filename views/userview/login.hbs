@@ -1,0 +1,31 @@
+
+<!-- partial:index.partial.html -->
+<section class="">
+    <form action="/loginaction" method="post">
+        <div class="screen-1">
+            <h1 class="logo">Tech<br>TUTOR</h1>
+            <div class="email">
+                <label for="email">Email Address</label>
+                <div class="sec-2">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" name="Email" placeholder="Username@gmail.com" />
+                </div>
+            </div>
+            <div class="password">
+                <label for="password">Password</label>
+                <div class="sec-2">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input class="pas" type="password" name="Password" placeholder="············" />
+                    {{#if loginErr}}
+                    <p class="err">Invalid Email or Password</p>
+                    {{/if}}
+                </div>
+            </div>
+            <button class="login">Login </button>
+            <div class="footer">
+                <a href="/signup">Signup</a>
+                <a href="/forgotpass">Forgot Password?</span>
+            </div>
+        </div>
+    </form>
+</section>
