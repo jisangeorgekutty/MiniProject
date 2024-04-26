@@ -49,6 +49,7 @@ body {
   box-shadow: 0 0 1em #e6e9f9;
   padding: 1em;
   display: flex;
+  
   flex-direction: column;
   gap: 0.5em;
   border-radius: 20px;

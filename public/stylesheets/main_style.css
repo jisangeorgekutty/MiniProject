@@ -10,11 +10,11 @@
   --text-color: #FFFFFF;
   --icon-color: #ACACBE;
   --icon-hover-bg: #5b5e71;
-  --placeholder-color: #dcdcdc;
-  --outgoing-chat-bg: #343541;
-  --incoming-chat-bg: #444654;
-  --outgoing-chat-border: #343541;
-  --incoming-chat-border: #444654;
+  --placeholder-color: gray;
+  --outgoing-chat-bg: #0b1320;
+  --incoming-chat-bg: #fff;
+  --outgoing-chat-border: #0b1320;
+  --incoming-chat-border: #0b1320;
 }
 .light-mode {
   --text-color: #343541;
@@ -176,7 +176,7 @@ span.material-symbols-rounded {
   width: 100%;
   border: none;
   padding: 15px 45px 15px 20px;
-  color: var(--text-color);
+  color:#000;
   font-size: 1rem;
   border-radius: 4px;
   max-height: 250px;
