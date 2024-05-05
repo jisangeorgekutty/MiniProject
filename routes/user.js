@@ -5,6 +5,7 @@ const async = require('hbs/lib/async');
 const { response } = require('../app');
 
 
+
 /* GET home page. */
 var varifyLogin = (req, res, next) => {
   if (req.session.userloggedIn) {
